@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CurrencyConverterPanel />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import CurrencyConverterPanel from '@/components/CurrencyConverterPanel.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    CurrencyConverterPanel
   }
 }
 </script>
